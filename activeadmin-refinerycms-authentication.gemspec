@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
     'app/decorators/controllers/sessions_controller_decorator.rb'.freeze,
     'app/decorators/models/user_decorator.rb'.freeze,
     'app/models/user_plugin.rb'.freeze,
-    'app/overrides/active_admin_link.rb'.freeze,
     'lib/activeadmin-refinerycms-authentication.rb'.freeze,
     'lib/activeadmin_refinery_authentication/authorisation_adapter.rb'.freeze,
     'lib/activeadmin_refinery_authentication/authorisation_manager.rb'.freeze,
@@ -38,5 +37,4 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'refinerycms-core', '~> 4.0.0'
   s.add_runtime_dependency 'zilch-authorisation', '>= 0.0.1'
   s.add_runtime_dependency 'decorators', '~> 2.0.0'
-  s.add_runtime_dependency 'deface', '~> 1.0.0'
 end
